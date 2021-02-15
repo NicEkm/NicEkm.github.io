@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Niclas Ekman Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<link rel="icon" type="image/png" href="favicon.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="content">
+							<div class="inner">
+								<h1>Projects</h1>
+								<p>Here I showcase my own most relevant and skill-oriented projects. <br> I will tell more what I learnt while doing and what
+								are the main goals of the projects. <br> There will also be links to the projects GitHub page and some pictures to demonstrate it better.
+								</p>
+							</div>
+						</div>
+						<a href="index.html" title="Projects" id = "projektit" class="button stroke">Homepage</a> 
+						<nav>
+							<ul>
+								<li><a href="#project_1">Project 1</a></li>
+								<li><a href="#project_2">Project 2</a></li>
+								<li><a href="#project_3">Project 3</a></li>
+								<li><a href="#other">Project 4</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="project_1">
+								<h2 class="major">Authentication-Schemes <span class="icon"><i class="fa fa-lock"></i></span></h2>
+								
+								<p>This is my most recent project that is example how to implement OAuth 2.0 and OpenID Connect in user authentication when designing web-app. 
+									I have created my own authentication server and then I have also included Keycloak authentication server. These uses two different flows: Authorization code flow
+									and implict flow. You can read more about the flows and diffrences between them from <a href="https://nordicapis.com/8-types-of-oauth-flows-and-powers/">here</a>.</p>
+								<p>Project contains also Class based view, and OOP - structuring. I have also implemented importlib that takes CLI - argument and that way import correct
+									libraries, which increases runtime-speed and all effectiveness since not all unnecessary libraries are imported every time code is run.
+									One of my main goal was also to write good and understandable documentation and keep track all recources and guides etc, that I used while developing Authentication-Schemes- project.
+								</p>
+								<p>
+									<a href="https://github.com/NicEkm/Authentication-Schemes">Link to the GitHub-page!</a>
+								</p>
+							</article>
+							
+						<!-- Work -->
+							<article id="project_2">
+								<h2 class="major">RSA-Encryption <span class="icon"><i class="fas fa-key"></i></span></h2>
+								<span class="image main"><img src="images/rsa_pic.png" alt="" /></span>
+								<p>
+									This project is to show how to use RSA encryption to encrypt messages, how to randomly generate keypairs (Public key, Private key)
+									 and how to use JWT to send data over HTTP-requests in Python3.
+								</p>
+								<p>There is Client 1 and Client 2 in this project. Client 1 is the person who wants encrypted messages and generates the keys. Client 2 is the one who receives 
+									public key and encrypts message with it and then sends it to Client 1 through HTTP-request.
+								</p>
+								<p>
+									My main goal in this project was to show as simple as possible how RSA is executed and how to use it to generate encrypted communication. My aim was also to show basics of 
+									creating AIOHTTP servers and how to use JWT as a standard method to send data over HTTP-requests.  
+								</p>
+								<p>
+									<a href="https://github.com/NicEkm/RSA_encryption">Link to the GitHub-page!</a>
+								</p>
+							</article>
+
+						<!-- About -->
+							<article id="project_3">
+								<h2 class="major">InfoWorld <span class="icon"><i class="fas fa-globe-americas"></i></span></h2>
+								<span class="image main"><img src="images/infoworld.png" alt="" /></span>
+								<span class="image main"><img src="images/infoworld2.png" alt="" /></span>
+								<p>
+									This is my first GUI project, which goal is to show basics of tkinter (which is python-library that is used when simple GUI's are needed), how to use two different
+									REST API's when developing application and how to gain data from them. InfoWorld gathers data from two different API's (the country information is from one API and the flag is from another). 
+									This is not fancy application but contains many good fundamental pilars in coding Python 3 and using REST API's.
+								</p>
+								<p>
+									<a href="https://github.com/NicEkm/InfoWorld">Link to the GitHub-page!</a>
+								</p>
+							</article>
+
+						<!-- Contact -->
+						<article id="other">
+							<h2 class="major">Cybersecurity <span class="icon"><i class="fas fa-shield-alt"></i></span></h2>
+							<p>
+								I don't have any real life projects from cybersecurity. However I have done alot of things at school, for example routing
+								and switching, penetrationg testing, operational security, networks security, linux courses and more. Those covers basically all fundamental parts
+								in cybersecurity and networking and they have given me very good tools to start developing my career in this area. We have mainly used CISCO devices (routers, switches, firewalls, 
+								softwares etc).
+							</p>
+							<p>
+								Right now I have penetration testing and operational security courses, and there we will do different kind of vulnerability testing and writing
+								testing reports and I will share them here after I finish the courses. 
+							</p>
+							<p>
+								In my freetime I have done and learnt some Ethical hacking in <a href="https://tryhackme.com/">THM (TryHackMe)</a>. There I have learnt
+								different tools to perform penetration testing and how to approach target machines. Here is some tools that I have used: Hydra, Burp suite, Nmap, enum4linux, gobuster and much more.
+							</p>
+							<p>
+								I will post my scanning/testing reports here soon! 
+							</p>
+						</article>
+					</div>
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/niclasekman/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.instagram.com/ekmaniclas/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/NicEkm" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
