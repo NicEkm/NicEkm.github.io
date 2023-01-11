@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Niclas Ekman Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<link rel="icon" type="image/png" href="favicon.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="content">
+							<div class="inner">
+								<h1>Python projects</h1>
+								<p>Here is my most relevant Python projects
+								</p>
+							</div>
+						</div>
+						<a href="index.html" title="Projects" id = "projektit" class="button stroke">Homepage</a> 
+						<nav>
+							<ul>
+								<li><a href="#project_1">Auth schemes</a></li>
+								<li><a href="#project_2">RSA Encryption</a></li>
+								<li><a href="#project_3">INFOWORLD</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="project_1">
+								<h2 class="major">Auth-Schemes <span class="icon"><i class="fa fa-lock"></i></span></h2>
+								
+								<p>Authentication-Schemes is my most recent project that is example how to implement OAuth 2.0 and OpenID Connect in user authentication when designing web-app. 
+									I have created my own authentication server and then I have also included Keycloak authentication server. These uses two different flows: Authorization code flow
+									and implict flow. You can read more about the flows and diffrences between them from <a href="https://nordicapis.com/8-types-of-oauth-flows-and-powers/">here</a>.</p>
+								<p>Project contains also Class based view, and OOP - structuring. I have also implemented importlib that takes CLI - argument and that way import correct
+									libraries, which increases runtime-speed and all effectiveness since not all unnecessary libraries are imported every time code is run.
+									One of my main goal was also to write good and understandable documentation and keep track all recources and guides etc, that I used while developing Authentication-Schemes- project.
+								</p>
+								<p>
+									<a target="_blank" href="https://github.com/NicEkm/Authentication-Schemes">Link to the GitHub-page!</a>
+								</p>
+							</article>
+							
+						<!-- Work -->
+							<article id="project_2">
+								<h2 class="major">RSA-Encryption <span class="icon"><i class="fas fa-key"></i></span></h2>
+								<span class="image main"><img src="images/rsa_pic.png" alt="" /></span>
+								<p>
+									This project is to show how to use RSA encryption to encrypt messages, how to randomly generate keypairs (Public key, Private key)
+									 and how to use JWT to send data over HTTP-requests in Python3.
+								</p>
+								<p>There is Client 1 and Client 2 in this project. Client 1 is the person who wants encrypted messages and generates the keys. Client 2 is the one who receives 
+									public key and encrypts message with it and then sends it to Client 1 through HTTP-request.
+								</p>
+								<p>
+									My main goal in this project was to show as simple as possible how RSA is executed and how to use it to generate encrypted communication. My aim was also to show basics of 
+									creating AIOHTTP servers and how to use JWT as a standard method to send data over HTTP-requests.  
+								</p>
+								<p>
+									<a target="_blank" href="https://github.com/NicEkm/RSA_encryption">Link to the GitHub-page!</a>
+								</p>
+							</article>
+						
+					</div>
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a target="_blank" href="https://www.linkedin.com/in/niclasekman/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/ekmaniclas/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a target="_blank" href="https://github.com/NicEkm" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
